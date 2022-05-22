@@ -1,6 +1,6 @@
 import styles from "./Navbar.module.scss";
 import { Link } from "react-router-dom";
-import moralisMerchLogo from "./../../assets/icons/moralis_merch.svg";
+import moralisMerchLogo from "./../../assets/Images/Moralis-Merch_540x.png";
 
 function Navbar() {
   return (

@@ -9,11 +9,16 @@ function Footer() {
       <h4>Need further support?</h4>
       <p>Reach out to our Moralis Support team at hello@moralis.io</p>
       <div>
-        <a target="_blank" href="https://twitter.com/moralisWeb3">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/moralisWeb3"
+        >
           <RiTwitterFill className={styles.icons} />
         </a>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw"
         >
           <RiYoutubeFill className={styles.icons} />
