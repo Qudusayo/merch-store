@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Alliance No.2";
+  src: url("../public/font/Alliance\ No.2.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Alliance No.2", sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  padding: 0 2.25em;
+
+  /* Center slide text vertically */
+  display: flex !important;
+  align-items: center !important;
+
+  background-position: 50%;
+  background-size: cover;
+  background-color: rgba(50, 50, 50, 0.5);
+  background-blend-mode: multiply;
+}
+
+.swiper-slide-1 {
+  background-image: url("/images/slide-one.webp");
+}
+
+.swiper-slide-2 {
+  background-image: url("/images/slide-two.jpeg");
+}
+
+.swiper-pagination {
+  width: fit-content !important;
+  position: absolute !important;
+  bottom: 3.25em !important;
+  left: 3.15em !important;
+}
+
+.swiper-pagination-bullet {
+  width: 1em !important;
+  height: 1em !important;
+  text-align: center;
+  line-height: 20px;
+  background: #ffffff !important;
+  opacity: 1 !important;
+
+  &:nth-of-type(2) {
+    margin-left: 0.75em !important;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #33b557 !important;
+}
