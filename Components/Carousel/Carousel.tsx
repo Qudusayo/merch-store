@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 import Button from "../Button/Button";
 import styled from "@emotion/styled";
 
@@ -19,7 +19,7 @@ export default function Carousel() {
     <>
       <Swiper
         pagination={pagination}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         loop={true}
         freeMode={true}
         autoplay={true}
